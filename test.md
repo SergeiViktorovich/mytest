@@ -167,8 +167,11 @@ server {
 
 Высокая нагрузка может быть вызвана слишком агрессивными параметрами синхронизации (например, слишком высокими значениями **sync_speed_min** и **sync_speed_max**).  
 Рекомендации клиенту, проверить состояние дисков (например **smartctl -a /dev/sda**) и параметры синхронизации **RAID1**.  
+
 ![raid1](https://github.com/SergeiViktorovich/mytest/blob/master/Screenshot_3.jpg)  
-11. Что происходит на сервере: [https://drive.google.com/file/d/1fgJaftjv53xCN7vgiJOaQlbfWkUqPgyd/view?usp=share_link](https://drive.google.com/file/d/1fgJaftjv53xCN7vgiJOaQlbfWkUqPgyd/view?usp=share_link) Опишите в формате ответа для клиента, если у вас есть предложения по оптимизации, также укажите их.
+
+11. Что происходит на сервере: [https://drive.google.com/file/d/1fgJaftjv53xCN7vgiJOaQlbfWkUqPgyd/view?usp=share_link](https://drive.google.com/file/d/1fgJaftjv53xCN7vgiJOaQlbfWkUqPgyd/view?usp=share_link) Опишите в формате ответа для клиента, если у вас есть предложения по оптимизации, также укажите их.  
+
 **Atop** показывает высокую нагрузку на диск **sda**. Также используется почти вся оперативная память и **swap**. В CPU высокое значение **wait (> 10%)**. 
 Высокая нагрузка на **MySQL** и диски может указывать на проблемы с производительностью, неправильную настройку базы данных или неэффективные запросы.
 
@@ -199,3 +202,4 @@ server {
 
 * Если дисковая подсистема ограничивает производительность, используйте SSD или NVMe-диски.
 
+![myasl](https://github.com/SergeiViktorovich/mytest/blob/master/Screenshot_4.jpg)
