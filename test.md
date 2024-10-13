@@ -222,7 +222,7 @@ server {
 **include_vars: "el{{ ansible_distribution_major_version }}.yml"**  
 Эта директива подразумевает, что существуют файлы переменных, специфичные для версии ОС (например, **el7.yml** и **el8.yml**). Это создаёт зависимость от структуры файлов в роли: если эти файлы отсутствуют или названы неправильно, роль не выполнится корректно.  
 
-```bash
+```yml
 when:
   - not __rhel_python_sub_find.files|length
   - ansible_distribution_major_version|int == 7
@@ -236,7 +236,7 @@ when:
 - SELECT count(*) FROM tickets_messages WHERE ticket_id like '%56412'; возвращает 7 записей
 ```
 
-***Потенциальные причины разницы***  
+**Потенциальные причины разницы**  
 
 1.	**Проблемы с типом данных**
 
