@@ -151,5 +151,5 @@ server {
 4. Запрос 3 (**SELECT**) — наименее тяжёлый.  
 # 10. Что происходит на сервере: [https://drive.google.com/file/d/1Cxkx6-428EQAX0-eiaq66H829ohnPp7q/view?usp=sharing](https://drive.google.com/file/d/1Cxkx6-428EQAX0-eiaq66H829ohnPp7q/view?usp=sharing) Опишите в формате ответа для клиента, если у вас есть предложения по оптимизации, также укажите их.
 
-![raid1](https://gitlab.com/general7833641/test/-/blob/master/Screenshot_3.jpg?raw=true)  
+![raid1](https://github.com/SergeiViktorovich/mytest/blob/master/Screenshot_3.jpg)  
 
